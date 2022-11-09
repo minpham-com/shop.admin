@@ -29,4 +29,8 @@ public
 .env
 .env.development
 .env.staging
+<<<<<<< HEAD
 .env.production
+=======
+.env.production
+>>>>>>> 86be829 (Start develop)
