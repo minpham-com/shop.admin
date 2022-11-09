@@ -1,0 +1,18 @@
+{
+  "projects": {
+    "default": "minpham-com"
+  },
+  "targets": {
+    "minpham-com": {
+      "hosting": {
+        "admin-minpham-com-dev": [
+          "admin-minpham-com-dev"
+        ],
+        "admin-minpham-com": [
+          "admin-minpham-com"
+        ]
+      }
+    }
+  },
+  "etags": {}
+}

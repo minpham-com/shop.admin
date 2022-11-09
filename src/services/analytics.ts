@@ -5,7 +5,6 @@ import axios from "axios"
 import { WRITE_KEY } from "../components/constants/analytics"
 import { useFeatureFlag } from "../context/feature-flag"
 import { medusaUrl } from "./config"
-
 // API
 
 const client = axios.create({
@@ -21,11 +20,12 @@ export const analytics = AnalyticsBrowser.load({
 /**
  * Fetches the analytics config for the current user.
  */
-export const getAnalyticsConfig =
-  async (): Promise<AdminAnalyticsConfigRes> => {
-    const { data } = await client.get("/")
-    return data
-  }
+export const getAnalyticsConfig = async (): Promise<
+  AdminAnalyticsConfigRes
+> => {
+  const { data } = await client.get("/")
+  return data
+}
 
 type CreateConfigPayload = {
   opt_out: boolean

@@ -100,3 +100,6 @@ Use these channels to be part of the community, ask for help while using Medusa,
 - [Medusa Blog](https://medusajs.com/blog/): find diverse tutorials and company news.
 - [Twitter](https://twitter.com/medusajs)
 - [LinkedIn](https://www.linkedin.com/company/medusajs)
+
+## note
+make sure run "firebase target:apply hosting minpham-com-dev minpham-com-dev" if deploy to firebase

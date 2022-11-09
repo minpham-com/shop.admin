@@ -30,17 +30,8 @@ export default defineConfig({
         "src/compat/reach-router-compat.tsx"
       ),
     },
-  },
-  define: {
-    __MEDUSA_BACKEND_URL__: JSON.stringify(
-      env.MEDUSA_BACKEND_URL ||
-        // Backwards-compat with Gatsby.
-        env.GATSBY_MEDUSA_BACKEND_URL ||
-        env.GATSBY_STORE_URL ||
-        ""
-    ),
-  },
-  optimizeDeps: {
-    exclude: ["typeorm", "medusa-interfaces"],
-  },
+    optimizeDeps: {
+      exclude: ["typeorm", "medusa-interfaces"],
+    },
+  }
 })
