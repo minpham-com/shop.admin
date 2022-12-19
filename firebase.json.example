@@ -1,6 +1,6 @@
 {
   "hosting": [{
-    "target": "admin-minpham-com-dev",
+    "target": "admin-project-id-dev",
     "public": "public",
     "ignore": [
       "firebase.json",
@@ -19,7 +19,7 @@
     }]
   },
   {
-    "target": "admin-minpham-com",
+    "target": "admin-project-id",
     "public": "public",
     "ignore": [
       "firebase.json",
