@@ -103,3 +103,6 @@ Use these channels to be part of the community, ask for help while using Medusa,
 
 ## note
 make sure run "firebase target:apply hosting minpham-com-dev minpham-com-dev" if deploy to firebase
+
+## version
+- deploy api 1.10.1
