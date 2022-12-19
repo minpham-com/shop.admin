@@ -1,0 +1,40 @@
+{
+  "hosting": [{
+    "target": "admin-project-id-dev",
+    "public": "public",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "appAssociation": "AUTO",
+    "cleanUrls": true,
+    "trailingSlash": false,
+    "rewrites": [{
+      "source": "/a/**",
+      "destination": "/index.html"
+    },{
+      "source": "**",
+      "dynamicLinks": true
+    }]
+  },
+  {
+    "target": "admin-project-id",
+    "public": "public",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "appAssociation": "AUTO",
+    "cleanUrls": true,
+    "trailingSlash": false,
+    "rewrites": [{
+      "source": "/a/**",
+      "destination": "/index.html"
+    },{
+      "source": "**",
+      "dynamicLinks": true
+    }]
+  }]
+}
