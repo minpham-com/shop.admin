@@ -14,7 +14,6 @@ jobs:
       PREFIX: ${{ secrets.PREFIX }}
       GS_CREDENTIALS: ${{ secrets.GS_CREDENTIALS }}
       PROJECT_ID: ${{ secrets.PROJECT_ID }}
-      PROJECT_TARGET: ${{ secrets.PROJECT_TARGET }}
 
     steps:
       - name: Checkout repository
