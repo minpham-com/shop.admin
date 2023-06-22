@@ -43,7 +43,9 @@ jobs:
         run: curl -sL https://firebase.tools | bash
 
       - name: Build app
-        run: yarn && yarn build
+        run: |
+          rm -rf yarn.lock && rm -rf package-lock.json
+          yarn && yarn build
 
       - name: Deploy app
         run: firebase deploy --only hosting --project ${{ env.PROJECT_ID }}
